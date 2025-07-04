@@ -17,7 +17,7 @@ Essa landing page é um dos desafios proposto pelo Escola DNC. Apresenta o propo
 # 🛜 Como acessar?
 
 # 🔗 link do site
-https://dnc-school-desafio01-dnc.netlify.app/
+https://application-responsividade-html5-css3.netlify.app/
 
 ## 🔗 Link do repositório
 https://github.com/ageuribeiro/responsividade
