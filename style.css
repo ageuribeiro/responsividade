@@ -78,7 +78,74 @@ h2 {
     background: linear-gradient(180deg, #fff, #d9d9d9);
 }
 
-.background-red{
+.background-red {
     background-color: #F84646;
     color: #fff;
+}
+
+#qualities {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+#qualities > img {
+    margin: 0 2.5rem;
+}
+
+
+.article-container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.article-container:nth-child(even){
+    margin-top: 5rem;
+    flex-direction: row-reverse;
+}
+
+.article-details{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    margin:0 2.5rem 0 0;
+    justify-content: space-between;
+}
+
+.article-details > button{
+    font-size: 1rem;
+}
+
+.article-container:nth-child(even) > .article-details{
+    margin:0 0 0 2.5rem;
+}
+
+.footer-list{
+    display: flex;
+    text-align: left;
+    
+}
+
+.footer-list > ul > li{
+    list-style: none;
+    margin-bottom:1rem;
+}
+
+.footer-list > ul > li:last-child{
+    margin-bottom:0;
+}
+
+.footer-list > ul > li:first-child{
+     margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.footer-copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8.5rem;
 }
