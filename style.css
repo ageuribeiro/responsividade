@@ -88,6 +88,9 @@ h3 {
     color: #fff;
 }
 
+.background-grey{
+    background-color: #F4F5F7;
+}
 #qualities {
     display: flex;
     justify-content: center;
@@ -168,10 +171,20 @@ h3 {
     margin: .5rem 0 0;
 }
 
+.grid-item-companies{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    border-radius: 1rem;
+}
+
 .grid-container-companies{
     display: grid;
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: repeat(3,1fr);
+    margin-top: 3rem;
 }
 
 .company-1{
